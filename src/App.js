@@ -5,6 +5,7 @@ import Cotactus from './Components/Cotactus'
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Register from './Components/Register';
+import Abovefooter from './Components/Abovefooter'
 import {BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       </Routes>
       </BrowserRouter>
        
-       
+       <Abovefooter/>
          <Footer/>
     </div>
   );

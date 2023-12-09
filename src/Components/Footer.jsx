@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='bg-secondary-subtle mt-5 '>
-      <div className='container bg-secondary-subtle mt-5'>
+    <div className='bg-secondary-subtle'>
+      <div className='container bg-secondary-subtle '>
         <div className='row g-3'>
             <div className='col-md-3 col-6'>
                 <div className='card border-0 bg-secondary-subtle'>
@@ -54,10 +54,9 @@ function Footer() {
                       <div className='col'>
                       <ul  className='liststyle lh-lg'>
                           <h6>CONTACT</h6>
-                          <li>#10 Bengalur Karnataka 577401</li>
-                          <li>jyothi@gmail.com</li>
-                          <li>Andraid Development</li>
-                          <li>9642345076</li>
+                          <li><i class="fa-sharp fa-solid fa-house"></i> #10 Bengaluru Honnavar Rd, sagara, Karnataka 577401</li>
+                          <li><i class="fa-sharp fa-regular fa-envelope"></i> nagajyothi1994@gmail.com</li>
+                          <li><i class="fa-solid fa-phone"></i>9642345076</li>
                          </ul>
                          
                       </div>

@@ -8,7 +8,7 @@ function Navbar() {
         <a href="#" className='navbar-brand fs-4 '>Name</a>
     
        <button className='navbar-toggler me-3' type='button' data-bs-toggle='collapse' data-bs-target='#btn'>
-       <i class="fa-sharp fa-regular fa-bars"></i>
+       <i class="fa-sharp fa-thin fa-bars"></i>
        </button>
        <div className='collapse navbar-collapse' id='btn'>
         <ul className='navbar-nav  ms-auto '>
