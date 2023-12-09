@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
        <nav className='navbar navbar-expand-md bg-secondary-subtle'>
-        <a href="" className='navbar-brand fs-4 '>Name</a>
+        <a href="#" className='navbar-brand fs-4 '>Name</a>
     
        <button className='navbar-toggler me-3' type='button' data-bs-toggle='collapse' data-bs-target='#btn'>
        <i class="fa-sharp fa-regular fa-bars"></i>
