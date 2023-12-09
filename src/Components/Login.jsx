@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+// import Register from './Register'
+// import {BrowserRouter,Routes,Route } from 'react-router-dom';
 
 
 
@@ -15,13 +18,14 @@ function Login() {
                                     <input type='text' className="rounded backcolor w-75 mt-4 border-0 shadow-lg" placeholder='Email...'/><br/>
                                     <input type='text' className=" rounded backcolor w-75  mt-4 border-0" placeholder='Password'/><br/>
                                      <button className= 'butshadow rounded w-75 mt-4 border-0 '>Login</button><br/>
-                                     <p className='mt-4 '>Don't have an account?<a href="#" className=''>Register</a></p>
+                                     <p className='mt-4 '>Don't have an account?<Link to='/register' className=''>Register</Link></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
              </div>
+           
                
          </div>
     )

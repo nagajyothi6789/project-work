@@ -1,4 +1,7 @@
 import React from 'react'
+import Login from './Login'
+import { Link } from 'react-router-dom'
+
 
 function Register() {
   return (
@@ -17,7 +20,7 @@ function Register() {
 
                                     <input type='text' className=" rounded backcolor w-75  mt-4 border-0" placeholder='Password'/><br/>
                                      <button className= 'butshadow rounded w-75 mt-4 border-0 '>Register</button><br/>
-                                     <p className='mt-4 '>Already have an account?<a href="#" className=''>Login</a></p>
+                                     <p className='mt-4 '>Already have an account?<Link to='/login' className=''>Login</Link></p>
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link,outlet} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -13,16 +13,16 @@ function Navbar() {
        <div className='collapse navbar-collapse' id='btn'>
         <ul className='navbar-nav  ms-auto '>
           <li className='nav-item'>
-            <a  href='#' className='nav-link mx-3 fs-5'>Home </a>
+            < Link to='./' className='nav-link mx-3 fs-5'>Home </Link>
           </li>
           <li className='nav-item'>
-            <a href='#' className='nav-link  mx-3  fs-5'>About</a>         
+            <Link to='./Cotactus' className='nav-link  mx-3  fs-5'>Contact Us </Link>       
           </li>
           <li className='nav-item'>
-            <a href='#' className='nav-link  mx-3  fs-5'>Service</a>
+            < Link to='./service' className='nav-link  mx-3  fs-5'>Create blog </Link>
           </li>
           <li className='nav-item'>
-            <a href='#' className='nav-link  mx-3  fs-5'> Login</a>
+            < Link to='./login' className='nav-link  mx-3  fs-5'> Sign In </Link>
           </li>
         </ul>
        </div>
