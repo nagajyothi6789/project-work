@@ -12,8 +12,8 @@ function Navbar() {
        </button>
        <div className='collapse navbar-collapse' id='btn'>
         <ul className='navbar-nav  ms-auto '>
-          <li className='nav-item'>
-            < Link to='./' className='nav-link mx-3 fs-5'>Home </Link>
+          <li className='nav-item '>
+            < Link to='./' className='nav-link mx-3 fs-5 '>Home </Link>
           </li>
           <li className='nav-item'>
             <Link to='./Cotactus' className='nav-link  mx-3  fs-5'>Contact Us </Link>       

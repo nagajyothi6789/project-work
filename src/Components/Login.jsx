@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Login() {
   return  (
          <div>
-             <div className='container mt-5 w-25 text-center' >
+             <div className='container mt-5  text-center' >
                 <div className='row'>
                     <div className='col'>
                         <div className='card text-center card_height cardcolor position-relative'>

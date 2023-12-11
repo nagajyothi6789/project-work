@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -39,15 +39,20 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
 
 
-}
+/* } */
+
 /* NAVBAR */
 .navbar{
   padding: 0px;
   margin: 0px;
 }
+link{
+  text-decoration: none;
+}
+
 /* LOGIN  */
 .card_height{
   height: 300px;

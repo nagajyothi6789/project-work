@@ -8,10 +8,8 @@ function Abovefooter() {
           <div className='col'>
             <p className='text-start'>Get connected with us on Social networks:</p>
           </div>
-          <div className='col text-end '>
-            <i class="fa-brands fa-instagram  m-2"></i>
-            <i class="fa-brands fa-linkedin  m-2"></i>
-            <i class="fa-brands fa-github  m-2"></i><i class="fa-solid fa-water  m-2"></i>
+          <div className='col text-end fs-5 '>
+            <a href="#"> <i  class="fa-brands fa-instagram text-dark m-2"></i></a> <a href="#"> <i class="fa-brands fa-linkedin text-dark m-2"></i></a> <a href="#"> <i class="fa-brands fa-github text-dark m-2"></i></a> <a href="#"> <i class="fa-solid fa-water text-dark  m-2"></i></a>
            </div>
         </div>
       </div>
